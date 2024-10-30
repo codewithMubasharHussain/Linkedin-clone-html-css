@@ -299,5 +299,29 @@ a{
     color: #045be6;
     font-weight: 500;
     margin: 20px auto 10px;
+
+}
+.sidebar-useful-links{
+    padding: 15px 25px;
+    text-align: center;
+
+}
+.sidebar-useful-links a{
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+.copyright-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+.copyright-message img{
+    width: 18px;
+    margin-right: 4px;
     
 }
