@@ -188,3 +188,43 @@ a{
     width: 20px;
     margin-right: 10px;
 }
+.recent-activity{
+    background-color: #fff;
+    padding: 5px 25px;
+    margin: 12px 0;
+
+}
+.recent-activity h3{
+    color: #777;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 12px 0 10px;
+
+}
+.recent-activity a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888;
+    margin: 3px 0;
+
+}
+.recent-activity a img{
+    width: 20px;
+    margin-right: 10px;
+}
+.discover-more-links{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+
+}
+.discover-more-links a{
+    color: #045be6;
+    display: inline-block;
+    margin: 10px 0;
+    
+}
