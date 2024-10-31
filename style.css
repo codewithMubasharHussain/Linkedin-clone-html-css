@@ -115,10 +115,14 @@ a{
 .left-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 }
 .right-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 }
 .main-section{
     flex-basis: 47%;
