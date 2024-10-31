@@ -17,6 +17,6 @@ Implement additional pages like Messages, Notifications, and a job listings page
 **Getting Started**
 To view this project, clone the repository to your local machine:
 https://github.com/codewithMubasharHussain/Linkedin-clone-html-css.git
-![Front Page of LinkedIn Clone](https://github.com/your-username/linkedin-clone/blob/main/front-page.png)
-![Profile Page of LinkedIn Clone](https://github.com/your-username/linkedin-clone/blob/main/profile-page.png)
+![Front Page of LinkedIn Clone](https://github.com/codewithMubasharHussain/Linkedin-clone-html-css/blob/main/Linkedin%20Front%20page.jpeg)
+![Profile Page of LinkedIn Clone](https://github.com/codewithMubasharHussain/Linkedin-clone-html-css/blob/main/Linkedin%20Profile%20Page.jpeg)
 
