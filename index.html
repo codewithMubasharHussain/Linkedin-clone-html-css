@@ -28,7 +28,44 @@
         </div>
         <div class="navbar-right">
             <div class="online">
-                <img src="images/user-1.png" class="nav-profile-img">
+                <img src="images/user-1.png" class="nav-profile-img" onclick="togglemenu()">
+            </div>
+        </div>
+        <div class="profile-menu-wrap" id="profilemenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png" alt="">
+                    <div>
+                        <h3>Mubashar Hussain</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="profile-menu-links">
+                    <img src="images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </div>
+                <div class="profile-menu-links">
+                    <img src="images/setting.png" alt="">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </div>
+                <div class="profile-menu-links">
+                    <img src="images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </div>
+                <div class="profile-menu-links">
+                    <img src="images/display.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </div>
+                <div class="profile-menu-links">
+                    <img src="images/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </div>
             </div>
         </div>
     </nav>
@@ -273,6 +310,13 @@
             </div>
         </div>
     </div>
+    <script>
+        let profilemenu = document.getElementById("profilemenu");
+
+        function togglemenu(){
+            profilemenu.classList.toggle("profile-menu-wrap-open-menu");
+        }
+    </script>
 </body>
 
 </html>
